@@ -1,0 +1,21 @@
+application:
+  name:
+    options:
+      NameOfCurrencyPair: USD/RUB
+      StartCourse: 60.56
+    -
+      NameOfCurrencyPair: EUR/RUB
+      StartCourse: 62.98
+    -
+      NameOfCurrencyPair: EUR/USD
+      StartCourse: 1.03
+
+server:
+  port: 8085
+
+info:
+  name: "price history service for currency pair transactions"
+  author: "Julia Bednova"
+
+feign:
+  client:
